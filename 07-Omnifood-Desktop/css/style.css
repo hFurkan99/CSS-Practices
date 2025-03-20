@@ -8,6 +8,7 @@
   background-color: #fdf2e9;
   height: 9.6rem;
   padding: 0 4.8rem;
+  position: relative;
 }
 
 .logo {
@@ -52,8 +53,26 @@
   background-color: #cf711f;
 }
 
+/* MOBILE */
+.btn-mobile-nav {
+  border: none;
+  background-color: none;
+  cursor: pointer;
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
 /*******************************/
-/* HERO SECTION*/
+/* HERO SECTION */
 /*******************************/
 .section-hero {
   background-color: #fdf2e9;
@@ -482,7 +501,7 @@
       rgba(235, 151, 78, 0.35),
       rgba(230, 125, 34, 0.35)
     ),
-    url("../img/eating.jpg");
+    url("../img/food.jpg");
   background-size: cover;
   background-position: center;
 }
